@@ -1,0 +1,14 @@
+127.0.0.1       localhost
+
+# Docker Swarm
+192.168.23.100    docker100.traceongroup.com       docker100
+192.168.23.101    docker101.traceongroup.com       docker101
+192.168.23.102    docker102.traceongroup.com       docker102
+192.168.23.103    docker103.traceongroup.com       docker103
+192.168.23.104    docker104.traceongroup.com       docker104
+192.168.23.105    docker105.traceongroup.com       docker105
+
+# The following lines are desirable for IPv6 capable hosts
+::1     localhost ip6-localhost ip6-loopback
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters
