@@ -1,0 +1,13 @@
+services:
+
+  db:
+    image: percona
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: password
+
+  adminer:
+    image: adminer
+    restart: always
+    ports:
+      - 20000:8080
